@@ -33,7 +33,7 @@ function draw() {
 
     console.log("drawing the 2 quarter of lines")
     while(sec_pos < 1000){
-        line(sec_pos, 500, 500, pos);
+        line(sec_pos, 500, 1500, pos);
         sec_pos+=10;
         pos-=10;
     }
